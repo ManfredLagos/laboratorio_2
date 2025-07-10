@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="static/css/usuario-registrar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+    <header>
+        <div style="display: flex;">
+            <img class="imgMep" src="static/images/images (1).png" alt="Logo mep">
+            <h1>Ministario de Educación Pública</h1>
+        </div>
+
+        <nav>
+            <a href="">Inicio</a>
+            <a href="">Sobre nosotros</a>
+            <a href="">Contacto</a>
+            <a href="">Ingresar</a>
+        </nav>
+    </header>
+
+    <div class="contenedor">
+        <form>
+            <h1>Registro</h1>
+            <div class="contenedorInputs">
+                <div>
+                    <label for="txtNombre">Nombre:</label>
+                    <input style="margin-left: 26px;" type="text" id="txtNombre" placeholder="Nombre" required>
+                </div>
+
+                <div>
+                    <label for="txtApellidos">Apellidos:</label>
+                    <input style="margin-left: 18px;" type="text" id="txtApellidos" placeholder="Apellidos" required>
+                </div>
+
+                <div>
+                    <label for="txtCorreo">Correo:</label>
+                    <input style="margin-left: 37px;" type="mail" id="txtCorreo" placeholder="Correo" required>
+                </div>
+
+                <div>
+                    <label for="txtUsuario">Usuario:</label>
+                    <input style="margin-left: 32px;" type="text" id="txtUsuario" placeholder="Usuario" required>
+                </div>
+
+                <div>
+                    <label for="txtContrasenia">Contraseña:</label>
+                    <input style="margin-left: 5px;" type="password" id="txtContrasenia" placeholder="Contraseña" required>
+                </div>
+            </div>
+            <div class="contenedor_botton">
+                <button type="button" id="btnGuardar">Registrar</button>
+                <a href="">Volver</a>
+            </div>
+        </form>
+    </div>
+
+    <footer>
+        <p>@2025 Ministario de Educación Pública. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="JS/usuario-registrar.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+</html>
