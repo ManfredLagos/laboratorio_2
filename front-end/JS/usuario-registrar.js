@@ -56,7 +56,7 @@ function registrarUsuario() {
   })
     .then(response => {
       if (!response.ok) {
-        if (response.status === 409) {
+        if (response.status === 400) {
           Swal.fire({
             icon: "error",
             title: "Usuario duplicado",
